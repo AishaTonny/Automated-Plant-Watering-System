@@ -1,0 +1,17 @@
+The project is an Automated Plant Watering System, which uses electronics to automatically water plants based on soil moisture levels. This project ensures efficient water usage and healthy plant growth by automating the watering process.
+
+Components:
+
+Soil Moisture Sensor: Measures the moisture level of the soil. When the moisture level is low, the system triggers the watering process.
+Microcontroller (e.g., Arduino): Processes the data from the soil moisture sensor. It determines if the soil is dry and sends signals to activate the water pump.
+Water Pump: When the microcontroller detects dry soil, it activates the pump to water the plants.
+Relay Module: Acts as a switch between the microcontroller and the water pump. It controls the flow of power to the pump based on signals from the microcontroller.
+Power Source: Supplies power to the system, including the microcontroller and water pump.
+
+How It Works:
+
+The soil moisture sensor constantly monitors the soil's moisture content.
+The sensor sends data to the microcontroller, which processes it to check if the moisture level falls below a certain threshold.
+If the soil is dry, the microcontroller sends a signal to the relay, which activates the water pump.
+The water pump runs until the sensor detects that the soil is sufficiently moist.
+Once the desired moisture level is reached, the microcontroller stops the water pump, ensuring the plants are not overwatered.
